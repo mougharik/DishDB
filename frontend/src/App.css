@@ -1,0 +1,79 @@
+html {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height:100%;
+}
+
+body {
+  margin: 0 0 8em;
+  background-color: #21a0c2 !important;
+  font-family: 'Raleway', sans-serif;
+}
+
+.nav-link {
+  outline: 0;
+}
+
+.container {
+  max-width: 60vw;
+  margin-top: 6.5rem;
+  padding-bottom: 10vh;
+}
+
+.row {
+  margin-top: 5em;
+  padding-bottom: 8em;
+  background-color: #f5f2f2;
+}
+
+.jumbotron {
+  background-color: #f5f2f2;
+}
+
+.alert {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.rounded {
+  border-radius: 0.75rem !important;
+}
+
+footer .container-fluid {
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  width: 100vw;
+  height: auto; 
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+p.h5, p.h4 {
+  font-weight: 200;
+}
+
+.container#logo{
+  margin: 0;
+  padding: 0;
+  max-width: 100px;
+  float: left;
+  position: fixed;
+}
+
+td#label {
+  font-weight: 200;
+  font-size: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+}
+
+td#item {
+font-weight: 400;
+font-size: 1.1rem;
+
+}
